@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samsoma • Birthday Countdown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <div class="stars"></div>
+    <div class="grid"></div>
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+
+    <main class="card" id="card">
+      <div class="eyebrow">A SPECIAL MOMENT IS COMING</div>
+      <div class="title-wrap">
+        <div class="title-shadow">SAMSOMA</div>
+        <h1>SAMSOMA</h1>
+      </div>
+      <p class="subtitle">The countdown to her 19th birthday</p>
+
+      <div class="cake" aria-hidden="true">
+        <div class="flame"></div>
+        <div class="candle"></div>
+        <div class="cake-top"></div>
+        <div class="cake-body"></div>
+        <div class="cake-plate"></div>
+      </div>
+
+      <section class="countdown" id="countdown">
+        <div class="time-box"><span id="days">000</span><small>DAYS</small></div>
+        <div class="colon">:</div>
+        <div class="time-box"><span id="hours">00</span><small>HOURS</small></div>
+        <div class="colon">:</div>
+        <div class="time-box"><span id="minutes">00</span><small>MINUTES</small></div>
+        <div class="colon">:</div>
+        <div class="time-box"><span id="seconds">00</span><small>SECONDS</small></div>
+      </section>
+
+      <div class="date">27 • 10 • 2027</div>
+      <div class="hint">Move your mouse or finger around ✦</div>
+    </main>
+
+    <section class="celebration" id="celebration">
+      <div class="burst"></div>
+      <div class="celebration-content">
+        <div class="mini">THE DAY HAS ARRIVED</div>
+        <h2>HAPPY<br><span>19TH</span><br>BIRTHDAY</h2>
+        <p>Samsoma ✨</p>
+        <div class="cake-big">🎂</div>
+        <div class="message">May your 19th year be full of beautiful moments, laughter & unforgettable memories.</div>
+      </div>
+    </section>
+
+    <canvas id="confetti"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
